@@ -6,34 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buy</title>
     <link rel="stylesheet" href="./buy.css">
+    <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/a6df107b5a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <img src="./images/realty-logo.webp" alt="logo" width="10%">
-                <li><a href="index.html">Home</a></li>
+        <nav style="display: flex; flex-direction: row; width: 40%; margin: 0 auto;">
+            <a href="index.html"><img src="./images/realty-logo.webp" alt="logo" width="50%"></a>
+            <ul style="padding-left: 0;">
                 <li><a href="buy.html">Buy</a></li>
                 <li><a href="sell.html">Sell</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <div style="display: flex; flex-direction: column; align-items: center; background-color: burlywood;">
-        <div style="
-            display: flex; 
-            flex-direction: column; 
-            gap: 10%; 
-            align-items: center; 
-            text-align: center; 
-            font-size: 170%;
-            margin-bottom: 3%;
-            padding: 35px;
-            background-color: burlywood; 
-            border: 4px solid black;
-            margin-top: 3%;
-        ">
+    <div style="display: flex; flex-direction: column; align-items: center; background-image: linear-gradient(to right, #ff0000 0%, #ff99cc 100%);">
+        <div 
+            class="blackbox"
+            style="
+                display: flex; 
+                flex-direction: column; 
+                gap: 10%; 
+                align-items: center; 
+                text-align: center; 
+                font-size: 170%;
+                margin-bottom: 3%;
+                padding: 35px;
+                background-color: black;
+                color: white; 
+                border: 4px solid black;
+                margin-top: 3%;
+            "
+        >
             Buying a home is simpler than you thought!
         </div>
         <div>
@@ -41,10 +45,10 @@
         </div>
     </div>
     <footer>
-        <ul>
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook" style="color: blue;"></i></a></li>
-            <li><a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter" style="color: lightblue;"></i></a></li>                
-            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram" style="color:mediumorchid"></i></li></a></li>
+        <ul style="padding-left: 0;">
+            <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook" style="color: blue;"></i></a></li>
+            <li><a href="https://twitter.com/home"><i class="fa-brands fa-twitter" style="color: lightblue;"></i></a></li>                
+            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color:mediumorchid"></i></li></a></li>
         </ul>
     </footer>
 </body>

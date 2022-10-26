@@ -8,6 +8,14 @@ ul {
     list-style: none;
 }
 
+img {
+    border-radius: 60px;
+}
+
+.blackbox {
+    border-radius: 25px;
+}
+
 body{
     background-image: url(./images/green-background.jpg);
     background-repeat: no-repeat;
@@ -42,12 +50,17 @@ header li a:hover{
 
 footer{
     position: relative;
-    background: grey;
+    background: black;
     text-align: center;
     bottom: 0;
     left: 0;
     right: 0;
 }
+
+ul {
+    padding-left: 0;
+}
+
 footer li{
     display: inline;
     padding: 15px;

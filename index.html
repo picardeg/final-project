@@ -10,10 +10,9 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <img src="./images/realty-logo.webp" alt="logo" width="10%">
-                <li><a href="index.html">Home</a></li>
+        <nav style="display: flex; flex-direction: row; width: 40%; margin: 0 auto;">
+            <a href="index.html"><img src="./images/realty-logo.webp" alt="logo" width="50%"></a>
+            <ul style="padding-left: 0;">
                 <li><a href="buy.html">Buy</a></li>
                 <li><a href="sell.html">Sell</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -22,8 +21,8 @@
     </header>
     <div style="display: flex; flex-direction: row; column-gap: 10%; align-items: center;">
         <div style="display: flex; flex-direction: column; gap: 10%; align-items: center;">
-            <img src="./images/headshot.jpg" alt="headshot" width="30%" height="40%">
-            <div style="background-color: burlywood; text-align: center; border: 1px solid black; margin-top: 5%; padding: 5%;">
+            <img src="./images/headshot.jpg" alt="headshot" width="15%">
+            <div class="blackbox" style="background-color: seagreen; text-align: center; border: 1px solid black; margin-top: 5%; padding: 5%;">
                 Eric Picard
                 <br>
                 Picard Realty
@@ -33,15 +32,20 @@
                 Fax #: 123-456-7890
             </div>
         </div>
-        <div style="margin-right: 10%;">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/eWjwTKmgYmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+        <div style="display: flex; flex-direction: column; margin-right: 10%;">
+            <div class="blackbox" style="background-color: seagreen; text-align: center; border: 1px solid black; margin-top: 5%; padding: 5%;">
+                Picard Realty is here to get you the best value from your home.
+                <br>
+                Buy or sell with a trusted real estate agent today!
+            </div>
+            <iframe class="blackbox" style="margin-top: 10%;" width="390" height="210" src="https://www.youtube.com/embed/eWjwTKmgYmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
         </div>
     </div>
     <footer>
         <ul>
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook" style="color: blue;"></i></a></li>
-            <li><a href="https://twitter.com/home" target="_blank"><i class="fa-brands fa-twitter" style="color: lightblue;"></i></a></li>                
-            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram" style="color:mediumorchid"></i></li></a></li>
+            <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook" style="color: blue;"></i></a></li>
+            <li><a href="https://twitter.com/home"><i class="fa-brands fa-twitter" style="color: lightblue;"></i></a></li>                
+            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color:mediumorchid"></i></li></a></li>
         </ul>
     </footer>
 </body>
